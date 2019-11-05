@@ -1,0 +1,17 @@
+GR='\033[0;32m'
+NC='\033[0m'
+echo -e ${GR} F-Keybindings ${NC}
+echo F1:........................Basic Keybinds
+echo F2:........................Bring up this menu
+echo F3:........................Terminal shortcuts
+echo F4:........................Display manager
+echo F5:........................Restart i3
+echo F6:........................unused
+echo F7:........................unused
+echo F8:........................dmenu
+echo F9:........................Mount device
+echo F10:.......................unmount device
+echo F11:.......................Search DuckDuckGo
+echo F12:.......................Startup script and networking for homenet/tunet
+echo -e ${GR} This dialogue will disappear in 8 seconds. ${NC}
+sleep 8

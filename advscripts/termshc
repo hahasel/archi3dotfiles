@@ -1,0 +1,26 @@
+GR='\033[0;32m'	#Green color variable
+NC='\033[0m'	#No color variable
+echo -e ${GR} Terminal shortcuts. Type in Terminal and hit return.
+echo -e
+echo -e Folders \(this will also run ls -a\): ${NC}
+echo d:................................Documents
+echo D:................................Downloads
+echo h:................................home
+echo m:................................Music
+echo pp:...............................Pictures
+echo vv:...............................Videos
+echo cf:...............................config
+echo sc:.............................../local/bin
+echo mn:.............................../mnt
+echo
+echo -e ${GR} Editor files: ${NC}
+echo cfb:..............................bashrc
+echo cfa:..............................aliasrc
+echo cfz:..............................zshrc
+echo cfv:..............................vim config
+echo cfi:..............................i3 config
+echo cfd:..............................Xdefaults config
+echo cfB:..............................i3 blocks config
+echo cfk:..............................Keybindings config
+echo -e ${GR} This dialogue will disappear in 8 seconds. ${NC}
+sleep 8

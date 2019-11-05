@@ -1,0 +1,1 @@
+urxvt -e nautilus &; urxvt -e pulsemixer; pkill -RTMIN+10 i3blocks; i3-msg splitv &; urxvt

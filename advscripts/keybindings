@@ -1,0 +1,29 @@
+GR='\033[0;32m'
+NC='\033[0m'
+echo -e ${GR} Windows and Caps lock keys are mod keys.
+echo -e
+echo -e Important keybinds:
+echo -e
+echo -e Workspaces and Terminals: ${NC}
+echo mod+number:....................................Switch workspaces \(except 7\)
+echo mod+shift+number:..............................Move selected window to workspace \(except 7\)
+echo mod+return:....................................open vertical console
+echo mod+7:.........................................open horizontal console
+echo mod+shift+space:...............................float/unfloat selected window
+echo mod+shift+7:...................................kill selected window
+echo mod+q:.........................................close selected window
+echo mod+space:.....................................Cycle de and us keyboards
+echo
+echo -e ${GR} Programs ${NC}
+echo mod+shift+m:...................................Mail
+echo mod+a:.........................................floating calculator
+echo mod+shift+a:...................................open sound manager
+echo mod+m:.........................................open unpronouncable music player
+echo mod+shift+c:...................................toggle camera
+echo mod+shift+w:...................................Browser
+echo mod+shift+g:...................................Gimp
+echo mod+x:.........................................Sleep
+echo mod+shift+x:...................................Shutdown
+echo mod+shift+backspace:...........................Restart
+echo -e ${GR} This dialog will disappear in 8 seconds. ${NC}
+sleep 8
